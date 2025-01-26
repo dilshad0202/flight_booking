@@ -24,6 +24,7 @@ class FlightChartView extends StatelessWidget {
           _cardButonList(),
           Expanded(
             child: FlightList(
+              
               flightData: Mocks.flightMockData,
             ),
           ),
